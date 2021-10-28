@@ -1,0 +1,21 @@
+*{
+    background-color: #E5E5E5;
+}
+#nav {
+    position: relative;
+    left: 1000px;
+    justify-content: space-between;
+    word-spacing: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#button-1{
+    background-color: black;
+    color: white;
+}
+
+#button-2{
+    background-color: black;
+    color: white;
+}

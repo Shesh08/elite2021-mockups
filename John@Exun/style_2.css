@@ -1,0 +1,17 @@
+*{
+    background-color: #E5E5E5;
+}
+
+#nav {
+    position: relative;
+    left: 0px;
+    justify-content: space-between;
+    word-spacing: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#img{
+    position: relative;
+    left: 200px;
+}
