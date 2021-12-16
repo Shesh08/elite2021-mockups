@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 body {
-    background-image: url('images/bg.png');
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-links {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    word-spacing: 20px;
+}
+
+#nav-link-item {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+   position: absolute;
+   right: 10px;
+   top: 15px;
+}
+
+.nav-bar {
+    background-color: red;
+    width: 650px;
+    height: 80px;
+    float: right;
+    border-radius: 10px;
+    position: absolute;
+    right: 100px;
+}
+
+.header-text {
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+
+#text {
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.my-image {
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+}
+
+
+.socials {
+    position: relative;
+    left: 1100px;
+    bottom: 400px;
+    width: 100%;
+}
+
+#social-item-1 {
+    position: relative;
+    right: 80px;
+}
+
+#social-item-2 {
+    position: relative; 
+    right: 40px;
+}
+
+#header-main {
+    color: white;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.landing-page-text {
+    position: relative;
+    left: 900px;
+    bottom: 600px;
+    right: 200px;
+}
+
+.landing-page-small-text {
+    position: relative;
+    left: 900px;
+    bottom: 650px;
+}
+
+#landing-page-small-text-item {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
